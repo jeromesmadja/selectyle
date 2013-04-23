@@ -5,6 +5,7 @@ It's really tiny only __1kb minified__, and __264 bytes gzipped__.
 
 ## Getting Started
 Download the [minified version][min] or the [development version][max].
+
 Also download the [stylesheet][css] __(required)__
 
 [min]: https://raw.github.com/jeromesmadja/selectyle/master/dist/selectyle.min.js
