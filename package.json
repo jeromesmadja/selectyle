@@ -1,0 +1,31 @@
+{
+    "name": "selectyle",
+    "title": "Selectyle - Mini javascipt to style <select> elements",
+    "description": "",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jeromesmadja/selectyle",
+    "author": {
+        "name": "Jerome Smadja",
+        "email": "jerome.smadja@gmail.com",
+        "url": "https://twitter.com/jeromesmadja"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jeromesmadja/selectyle.git"
+    },
+    "bugs": "https://github.com/jeromesmadja/selectyle/issues",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jeromesmadja/selectyle/blob/master/LICENSE-MIT"
+        }
+    ],
+    "dependencies": {},
+    "keywords": [],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.1.1",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-concat": "~0.2.0"
+    }
+}

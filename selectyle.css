@@ -1,0 +1,70 @@
+.selectyle-wrapper, .selectyle-span, .selectyle-wrapper select {
+    height: 32px; /** Height and line-height values need to be the same  **/
+    line-height: 32px;
+}
+
+.selectyle-wrapper {
+    /** A select with rounded corners YAY */
+    border-radius: 5px;
+
+    /** Add the arrow as a background image and set a background color if you like **/
+    background-color: #e3e8f2;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAcCAMAAACu5JSlAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAGlQTFRFAAAABQcKFB4qFR8rBggMBwoOFR8sCAwRAQECAAABAwQGBwsPBgkNAwUHCQ0SCxEXDRMbChAWEBchMktpMktpMktpMktpMktpMktpMktpMktpMktpMktpMktpMktpMktpMktpMktp////TWtutQAAACF0Uk5TAAAAAAAAAAAAAAAAAAAAAAAAADz5RSTwTvxLaZADsQnAqJlFbQAAAAFiS0dEIl1lXKwAAAAJcEhZcwAAAEgAAABIAEbJaz4AAABvSURBVCjP7dK3EoAgEEVRxQQKKCYMBPn/n3QcsFus7PS2p9o3myR/75SiLIRyyIvy9rKCfBhdaJwgn+XtcoYcL6vndSOQ18XufW9q8ADK1MWK0ciFXBvnjObRCVp7HLaNT0Q6ITrysCHue/ytrzkBVJkITdL2aysAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTItMTEtMDlUMjM6Mzc6NDktMDU6MDDsGK6SAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEyLTExLTA5VDIzOjM3OjQ5LTA1OjAwnUUWLgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=);
+    background-repeat:  no-repeat;
+
+    /** Position the arrow to the right,
+    ** TIP : add some space to the right of your arrow image so it's not too close to the right border
+    **/
+    background-position: right center;
+
+    /** Select border **/
+    border: 1px solid #238db1;
+
+    /** Set the minimum width **/
+    min-width: 150px;
+
+    /** If you set the maximum width or width, then overflow: hidden; will be required **/
+    /*
+    max-width: 300px;
+    width: 300px;
+    overflow: hidden;
+    */
+
+    /** Push the arrow to the right, away from the text **/
+    padding-right: 35px;
+
+}
+.selectyle-span {
+    /** Set a border between the text and the arrow **/
+	border-right: 1px solid #aaa;
+
+    /** Text color **/
+    color: #334b65;
+
+    /** Add some padding-left so the text is not too close to the select border **/
+    padding-left: 5px;
+}
+
+/*
+ ************************************************
+ * DO NOT TOUCH THE FOLLOWING                   *
+ * http://www.youtube.com/watch?v=NyEE0qpfeig   *
+ * **********************************************
+ * These are the properties required so that the plugin can work correctly
+ */
+.selectyle-wrapper {
+    position : relative;
+    display : inline-block;
+}
+.selectyle-span {
+    display : block;
+    width : 100%;
+}
+.selectyle-wrapper select {
+    opacity : 0;
+    filter : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    left : 0;
+    position : absolute;
+    top : 0;
+    width : 100%;
+}
