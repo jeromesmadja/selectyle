@@ -10,7 +10,7 @@ Also download the [stylesheet][css] __(required)__.
 
 ## Usage
 Add [selectyle.min.js][min] and add [selectyle.css][css] to your document.
-Of course you can get the content from selectyle.css and add it to your own stylesheet that will avoid an extra request.
+Of course you can get the content from selectyle.css[css] and add it to your own stylesheet that will avoid an extra request.
 
 	<script src="PATH_TO_JAVACRIPT_DIR/selectyle.min.js"></script>
 	<link rel="stylesheet" href="PATH_TO_CSS_DIR/selectyle.css">
@@ -21,7 +21,7 @@ Once the DOM has been loaded, you can do:
 
 `Selectyle()` accepts any css selector using `document.querySelectorAll()`.
 
-For example you may want to have a class on the selects that you want to style:
+For example, you may want to have a class on the select elements that you want to style:
 
     <select class="fancy">
         <option value="1">Red</option>
