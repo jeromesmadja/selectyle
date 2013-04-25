@@ -37,7 +37,7 @@ For example, you may want to have a class on the select elements that you want t
     </script>
 
 ## Examples
-_(Coming soon)_
+http://codepen.io/jeromesmadja/pen/gGIAf
 
 ## Why is Selectyle different?
 It doesn't rewrite the features that browsers / OS offer natively, the `<select>` element has to be usable using mouse, keyboard, and touch.
