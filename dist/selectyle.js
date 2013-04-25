@@ -1,4 +1,4 @@
-/*! Selectyle - Mini javascipt to style <select> elements - v0.1.0 - 2013-04-23
+/*! Selectyle - Mini javascipt to style <select> elements - v0.1.0 - 2013-04-25
 * https://github.com/jeromesmadja/selectyle
 * Copyright (c) 2013 Jerome Smadja; Licensed MIT */
 var _Selectyle =
@@ -11,19 +11,17 @@ var _Selectyle =
      */
     init : function( elements )
     {
-        this.elements = elements;
-
-        var count = this.elements.length;
+        var count = elements.length;
 
         if ( count === 0 ) { return false; }
 
         for ( var i = count - 1; i >= 0; i-- )
         {
             // Loop through the select nodes only
-            if ( this.elements[i].nodeName !== 'SELECT' ) { return false; }
+            if ( elements[i].nodeName !== 'SELECT' ) { return false; }
 
             // Define select, wrapper and span elements
-            var select = this.elements[i],
+            var select = elements[i],
                 wrapper = document.createElement('div'),
                 span = document.createElement('span');
 

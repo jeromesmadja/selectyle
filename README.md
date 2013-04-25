@@ -1,7 +1,7 @@
 # Selectyle
 
 Selectyle is a tiny javascript plugin to style `<select>` elements.
-Only __1kb minified__, and __264 bytes gzipped__.
+Only __1kb minified__, and __258 bytes gzipped__.
 
 ## Getting Started
 1. Download the [minified version][min] or the [development version][max].
