@@ -8,19 +8,17 @@ var _Selectyle =
      */
     init : function( elements )
     {
-        this.elements = elements;
-
-        var count = this.elements.length;
+        var count = elements.length;
 
         if ( count === 0 ) { return false; }
 
         for ( var i = count - 1; i >= 0; i-- )
         {
             // Loop through the select nodes only
-            if ( this.elements[i].nodeName !== 'SELECT' ) { return false; }
+            if ( elements[i].nodeName !== 'SELECT' ) { return false; }
 
             // Define select, wrapper and span elements
-            var select = this.elements[i],
+            var select = elements[i],
                 wrapper = document.createElement('div'),
                 span = document.createElement('span');
 
