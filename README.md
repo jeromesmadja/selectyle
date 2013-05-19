@@ -11,8 +11,8 @@ Only __1kb minified__, and __258 bytes gzipped__.
 Add [selectyle.min.js][min] and add [selectyle.css][css] to your document.
 Of course, you can get the content from [selectyle.css][css], and add it to your own stylesheet, that will avoid an extra request.
 
-	<script src="PATH_TO_JAVACRIPT_DIR/selectyle.min.js"></script>
 	<link rel="stylesheet" href="PATH_TO_CSS_DIR/selectyle.css">
+	<script src="PATH_TO_JAVACRIPT_DIR/selectyle.min.js"></script>
 
 Once the DOM has been loaded, you can do:
 
@@ -46,8 +46,8 @@ The benefits to keep the native dropdown are:
 - keyboard accessibility: navigate through the options using the arrow keys, and ability to type the first characters of an option to select it.
 - touch devices: select elements work differently on phones or tablets, you don't want to be zooming in to select your options
 
-## What Selectlyle can not do?
-Selectyle does not style the dropdown for one simple reason: it shouldn't.
+## What Selectyle can not do?
+Selectyle does not style the dropdown for one simple reason: __it should not__.
 
 The dropdown that gets displayed is the one from the `<select>` element.
 
